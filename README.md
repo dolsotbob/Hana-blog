@@ -580,3 +580,8 @@ VS Code의 확장 프로그램 Liver Server는 왜 필요하죠?
 
 * 노트: 확장프로그램 Codeium: AI Coding Autocomplete!  (나중에 쓸 것) 
 
+VSCode에서 코드 자동 정렬 방법
+- 윈도우: Shift + Alt + F 
+- macOS: Shift + Option + F 
+- Linux: Ctrl + Shift + I 
+- 혹은 마우스 우클릭 > “Format Document” 누르기 
