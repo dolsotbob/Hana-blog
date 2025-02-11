@@ -585,3 +585,46 @@ VSCode에서 코드 자동 정렬 방법
 - macOS: Shift + Option + F 
 - Linux: Ctrl + Shift + I 
 - 혹은 마우스 우클릭 > “Format Document” 누르기 
+
+
+
+////
+2/11
+
+Shift + Option + F : 들여쓰기 자동완성 
+
+Ctrl + Shift + I (VS Code에서 자동 정렬)
+
+VSCode에서 코드 자동 정렬 방법
+- 윈도우: Shift + Alt + F 
+- macOS: Shift + Option + F 
+- Linux: Ctrl + Shift + I 
+- 혹은 마우스 우클릭 > “Format Document” 누르기 
+
+
+폴더 만들고, 파일 만들고, 파일에 글 쓰기 
+1. 폴더 만들기 - mkdir folder.git
+2. 폴더로 이동 - cd folder.git
+3. 폴더에서 파일 만들기 - touch filename.txt 
+4. 파일에 글 쓰기 - echo ‘Hello, Git!’ > filename.txt 
+
+
+피일을 로컬 -> 원격 옮길 때 쓰는 명령어 3개는? (**중요) 
+1. git add (파일이름 혹은 . ): 상태는 마치 노드 멤풀에 트랜젝션들이 모여있는 상태. 
+2. Git commit -m ‘메세지’ : 동료들이 내 메세지 보고 어떤 작업 했는지 파악이 되어야함
+3. Git push origin main : 여기서 origin은 이 코드가 원래 있어야 할 곳 (마스터 브랜치, 여기선 원격저장소); main은 브랜치 
+* Git help 치면 git 명령어 볼 수 있음 
+
+브랜치끼리 충돌할 때, 덮어쓰지 말기. (**중요) 
+Git pull origin main —no-rebase. (**중요) 
+- rebase: 우리 코드가 먼저다, 덮어 써라는 뜻. 
+- 덮어쓰지 않도록 no rebase로 
+
+브랜치 만들고 그 브랜치로 이동할 때 쓰는 명령어 
+- Git checkout -b 브랜치이름 
+
+
+아래 습관화 하기. 출근 하자마자 이거 하고 시작. 이래야 충돌 안 남. (** 중요) 
+- Git fetch —all : 모든 원격 저장소 최신화 
+- Git pull origin main : 원격 저장소 origin의 main 브랜치 코드를 가져옴 
+
